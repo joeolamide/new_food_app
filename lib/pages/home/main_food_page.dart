@@ -16,7 +16,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
   @override
   Widget build(BuildContext context) {
     print("the current height is" +
-        MediaQuery.of(context).size.height.toString());
+        MediaQuery.of(context).size.height.toString());//to get the height of the device screen
     return Scaffold(
       body: Column(
         children: [

@@ -40,12 +40,12 @@ Future<Response> getData(String uri,) async {
   try{
     //when it gets the data, saves in Response response.
     Response response = await get(uri);
-    //print(response);
+    print(response);
     return response;
 
   }catch(e){
     //else returns error via the error code.
-    return Response(statusCode: 1, statusText: e.toString());
+      return Response(statusCode: 1, statusText: e.toString());
   }
 }
 }
