@@ -17,7 +17,7 @@ class AppColumn extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         BigText(
-          text: "Chinese Side",
+          text: text,
           size: Dimensions.font26,
         ),
         SizedBox(
